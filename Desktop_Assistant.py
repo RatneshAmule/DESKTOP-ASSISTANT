@@ -4,7 +4,7 @@ import os
 import pyautogui
 import webbrowser
 import time
-
+import wikipedia
 engine = pyttsx3.init()
 recognizer = sr.Recognizer()
 
@@ -92,3 +92,4 @@ while True:
         if fail_count == MAX_FAILS:
             speak(" ")
             fail_count = 0  # reset after speaking once
+
